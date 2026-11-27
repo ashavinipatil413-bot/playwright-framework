@@ -1,0 +1,37 @@
+//A palindrome is a word that reads the same forward and backward.
+//Madam,Racecar,Level,
+
+function checkPalindrome(text:string):boolean{
+      let original = text.toLowerCase();
+
+
+    let reverse =original.split('').reverse().join('');
+
+    return (original===reverse);
+
+
+
+
+}
+const beforepalindrome="Madam";
+const afterpalindrome=checkPalindrome(beforepalindrome);
+console.log(afterpalindrome);
+
+//Number Palindrome
+
+function numberPalindrome(num:number):boolean{=
+
+let convertedstring= num.toString();
+
+let plaindromenumber=convertedstring.split('').sort().join();
+
+return(convertedstring===plaindromenumber)
+
+
+}
+
+let convertedstring1=121;
+
+let plaindromenumber1=numberPalindrome(convertedstring1);
+
+console.log(plaindromenumber1);

@@ -1,0 +1,9 @@
+(
+echo target/
+echo .classpath
+echo .project
+echo .settings/
+echo bin/
+echo test-output/
+echo *.log
+) > .gitignore

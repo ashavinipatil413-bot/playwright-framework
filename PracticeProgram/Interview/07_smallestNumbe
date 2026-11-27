@@ -1,0 +1,18 @@
+function findsmallestNumber(smallnum:number[]):number{
+
+    smallnum.sort((a,b)=>a-b);
+
+    return smallnum[0];
+
+
+
+
+
+
+}
+
+const smallnum=[30,50,1,80];
+const smallnum1=findsmallestNumber(smallnum);
+
+console.log(smallnum);
+console.log(smallnum1);
